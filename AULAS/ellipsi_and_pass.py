@@ -2,6 +2,6 @@
 valor = False
 
 if valor:
-    pass # or ...
+    pass  # or ...
 else:
     print('Tchau')
