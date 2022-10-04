@@ -28,14 +28,14 @@ import copy
 # print(d1)
 # print(v)
 
-# d1 = {1: 'a', 2: 'B', 3: 'C', 'd': ['Luiz', 'Otávio']}
-# v = copy.deepcopy(d1)
+d1 = {1: 'a', 2: 'B', 3: 'C', 'd': ['Luiz', 'Otávio']}
+v = copy.deepcopy(d1)
 
-# v[1] = 'Luiz'
-# v['d'][0] = 'Joãozinho'
+v[1] = 'Luiz'
+v['d'][0] = 'Joãozinho'
 
-# print(d1)
-# print(v)
+print(d1)
+print(v)
 
 d1 = {
     1: 4,
@@ -47,6 +47,6 @@ d2 = {
     'a': 'b',
     'c': 'd',
 }
-d1.update(d2) # contatenar dois dicionários
+d1.update(d2)  # contatenar dois dicionários
 d1.pop(3)    # .popitem() elimina sempre o ultimo item.
 print(d1)
